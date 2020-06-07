@@ -1,0 +1,6 @@
+<tổng số dd còn lại> = <tổng sức chứa các thùng> - <tổng số dd cần bổ sung để làm đầy các thùng>
+for i in range(<sức chứa thùng 1>,<sức chứa thùng n>):
+	<tổng dd còn lại> = <tong dd còn lại> - i
+	dem+=1
+	if <tổng dd còn lại> <=0:
+		break
